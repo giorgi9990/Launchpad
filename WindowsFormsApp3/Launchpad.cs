@@ -14,7 +14,7 @@ using NAudio.CoreAudioApi;
 
 namespace WindowsFormsApp3
 {
-    public partial class Launchpad : Form
+    public partial class Launchpad : Form 
     {
         WasapiOut wasapiOut;
         AudioFileReader audioFileReader;

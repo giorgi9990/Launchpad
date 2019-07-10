@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp3
 {
-    class AudioService : IAudioService
+    public class AudioService : IAudioService
     {
         private WasapiOut wasapiOut;
         private AudioFileReader audioFileReader;
@@ -48,7 +48,7 @@ namespace WindowsFormsApp3
             timer.Interval = firstrecordDuration * interval;
         }
 
-        public void StopRecordSoundO(Timer timer)
+        public void StopRecordSound(Timer timer)
         {
             waveSource.StopRecording();
             waveFile.Close();
@@ -60,6 +60,7 @@ namespace WindowsFormsApp3
 
             timer.Start();
         }
+
         private void waveSource_RecordingStopped(object sender, StoppedEventArgs e)
         {
             if (waveSource != null)

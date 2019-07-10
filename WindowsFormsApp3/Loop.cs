@@ -19,6 +19,8 @@ namespace WindowsFormsApp3
         private int frameCount;
         private int indexToPaint;
         private Timer timer = new Timer();
+        private audio
+        
 
 
         public Loop()
@@ -78,6 +80,11 @@ namespace WindowsFormsApp3
         private void Loop_MouseUp(object sender, MouseEventArgs e)
         {
             mouseDown = false;
+        }
+
+        private void loopGif1_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
