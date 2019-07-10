@@ -42,8 +42,6 @@ namespace WindowsFormsApp3
             }
         }
 
-
-
         private void closeButton_Click(object sender, EventArgs e)
         {
             Close();
@@ -58,7 +56,6 @@ namespace WindowsFormsApp3
         private void pictureBox38_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
-
         }
 
         private void Loop_MouseDown(object sender, MouseEventArgs e)
