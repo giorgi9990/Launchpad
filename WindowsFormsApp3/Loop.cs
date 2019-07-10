@@ -38,9 +38,10 @@ namespace WindowsFormsApp3
             indexToPaint++;
             if (indexToPaint >= frameCount)
             {
-                indexToPaint = 0;
+                indexToPaint = 0; 
             }
         }
+
 
 
         private void closeButton_Click(object sender, EventArgs e)

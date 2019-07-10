@@ -58,14 +58,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\..\CS\Launchpad-1\Launchpad.cs">
-      <SubType>Form</SubType>
-      <Link>Launchpad.cs</Link>
-    </Compile>
-    <Compile Include="..\..\..\CS\Launchpad-1\Launchpad.Designer.cs">
-      <DependentUpon>Launchpad.cs</DependentUpon>
-      <Link>Launchpad.Designer.cs</Link>
-    </Compile>
     <Compile Include="Loop.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,10 +66,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="..\..\..\CS\Launchpad-1\Launchpad.resx">
-      <DependentUpon>Launchpad.cs</DependentUpon>
-      <Link>Launchpad.resx</Link>
-    </EmbeddedResource>
     <EmbeddedResource Include="Loop.resx">
       <DependentUpon>Loop.cs</DependentUpon>
     </EmbeddedResource>
